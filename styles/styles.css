@@ -1,0 +1,79 @@
+:root {
+    --daisy: #F2CF07;
+    --tangerine: #F28444;
+    --coralreef: #F26B5E;
+    --salmon: #F29385;
+    --robbinegg: #88D9D6;
+    --lighttext: #FFFFFF;
+    --darktext: #595959;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1rem;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 50rem;
+  }
+
+h1 {
+    font-family: 'MuseoModerno', cursive;
+    color: var(--coralreef);
+    font-size: 30pt;
+}
+
+h2 {
+    font-family: 'MuseoModerno', cursive;
+    color: var(--salmon);
+    font-size: 24pt;
+}
+
+h3 {
+    font-family: 'MuseoModerno', cursive;
+    color: var(--robbinegg);
+    font-size: 18pt;
+}
+
+h4 {
+    font-family: 'MuseoModerno', cursive;
+    color: var(--tangerine);
+    font-size: 16pt;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--darktext);
+    font-size: 12pt;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+a {
+    color: var(--robinegg);
+    text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    color: var(--robinegg);
+    border: 2px solid var(--robinegg);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 1rem;
+    transition: background-color 300ms, color 300ms;
+}
+  
+.button:hover {
+    color: var(--darktext);
+    background-color: var(--robinegg);
+}
